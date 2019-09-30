@@ -68,19 +68,18 @@ Pin the following items for easy reference:
 
 ## Demo: Trigger Function with Event Grid Event
 
-Start by showing the code for `MakeThumbnailEventGrid`.
-
-1. Navigate to storage and show events
-2. Navigate to the `mod30-app` function and expand, drill into `MakeThumbnailEventGrid`
-3. Click "Add event grid subscription" and add the details of the storage account
-4. Give it a name like "WishlistSubscription"
-5. Topic Type is `Storage Accounts`
+1. Show the code for `MakeThumbnailEventGrid`.
+2. Navigate to storage and show events blade. Mention the different ways to set up subscriptions.
+3. Navigate to the `mod30-app` function and expand, drill into `MakeThumbnailEventGrid`
+4. Click "Add event grid subscription" and add the details of the storage account
+5. Give it a name like "WishlistSubscription"
+6. Topic Type is `Storage Accounts`
 6. Select the `mod30demostorage` storage account
 7. Filter to just the `Blob Created` event
-8. Wait for subscription to confirm
-9. Expand the logs and keep those open
+8. Wait for subscription to confirm.
+9. Expand the function logs and keep those open.
 10. Upload a new image and show it processed in the event grid
-11. Navigate to storage and show the thumbnail
+11. Navigate to storage and show the thumbnail.
 
 As a bonus, you can show the "events" in storage to display the subscription and related metrics.
 
