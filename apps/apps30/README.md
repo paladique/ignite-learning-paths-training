@@ -23,7 +23,7 @@ The following steps are necessary to prepare for MOD30 demos.
 3. Navigate to the `azureeventgrid` connection, click "Edit API connection" then click `Authorize` to authorize the connection (don't forget to `Save` after authorizing!)
 4. Publish the `Mod30Functions` app to the deployed `mod30-app` endpoint.
 
-*Deployment unsuccessful? See [Troubleshooting](#troubleshooting)*
+***Deployment unsuccessful?** See [Troubleshooting](#troubleshooting)*
 
 ### Azure Portal
 
@@ -64,7 +64,7 @@ Pin the following items for easy reference:
 
     `{ "blob": "{url}" }`
 10. Run and show the execution
-11. Navigate back to the storage and show the thumbnail
+11. Navigate back to the `wishlist` container in the storage account and show the thumbnail
 
 ## Demo: Trigger Function with Event Grid Event
 
