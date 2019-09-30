@@ -23,6 +23,8 @@ The following steps are necessary to prepare for MOD30 demos.
 3. Navigate to the `azureeventgrid` connection, click "Edit API connection" then click `Authorize` to authorize the connection (don't forget to `Save` after authorizing!)
 4. Publish the `Mod30Functions` app to the deployed `mod30-app` endpoint.
 
+*Deployment unsuccessful? See [Troubleshooting](#troubleshooting)*
+
 ### Azure Portal
 
 Create a custom dashboard for the session. (Tip: use `https:/aka.ms/publicportal` to ensure you are using the public portal.)
@@ -95,3 +97,14 @@ As a bonus, you can show the "events" in storage to display the subscription and
 7. Set the `blob` to the URL of the blob and `description` to the generated caption
 8. Save then enable the logic app
 9. Upload a new image and show the automated caption
+
+## Troubleshooting
+
+If after the deployment, you navigate to `mod30-app` and there are no functions, you may need to manually deploy:
+
+1. Under the function app, go to `Platform features`
+2. Click `Deployment center`
+3. Choose `External git` then click continue
+4. Choose `Kudu` then click continue
+5. Put in repo: https://github.com/Microsoft/Ignite-Learning-Paths and branch `master` and check `no` for `Private Repository`
+6. Confirm and the deployment will begin. Once the status is `Success (Active)` you should have the function app
