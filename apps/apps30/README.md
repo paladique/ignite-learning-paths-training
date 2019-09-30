@@ -1,4 +1,4 @@
-# Adding Cool Features to Your Application via Cloud Services
+# Adding Cool Features to Your Application via Cloud Services (Previously APPS30)
 
 Tailwind Traders has implemented development frameworks, deployment strategies, and server infrastructure for their apps. But now that they are on the cloud it’s time to extend functionality by tapping into powerful services that automatically scale and run exactly where and when they need them. This includes image resizing, messaging, integration with social media and tapping into cloud intelligence for image identification.
 
@@ -41,10 +41,10 @@ Pin the following items for easy reference:
 2. Create an In-portal HTTP Trigger (not the WebHook quick start, use "More templates...")
 3. Mention function security types and choose anonymous
 4. In another tab, open application insights (`-demo`) -> Live Metrics Stream (collapse outgoing requests and overall health)
-5. Hit the endpoint (either via Test or copy/paste URL, this is preferred so you can capture the endpoint) and show the live metric
-6. Point out the "servers" running
+5. Hit the endpoint either via Test or copy/paste URL in a new tab and show the live metric on Live Metrics Stream. Copy/paste method is preferred so you can capture the endpoint and use in the command line.
+6. Point out the "servers" running.
 7. Run `artillery quick --count 100 -n 100 {endpoint}`
-8. Show auto-scale working, response times, etc.
+8. Go back to Live Metrics Stream and show auto-scale working, response times, etc.
 
 ## Demo: Thumbnails with Functions
 
