@@ -87,14 +87,14 @@ As a bonus, you can show the "events" in storage to display the subscription and
 
 ## Demo: Automatic Image Captioning with Cognitive Services
 
-1. Show the code for `Update Description`
-2. Navigate to the `mod30-caption` logic app
-3. Open the Logic app designer
-4. Walk through the various steps and explain how one step feeds into the next with variables
-5. Expand the condition
-6. Add a step to connect with the `UpdateDescription` function _after_ the `Describe Image Content` step
+1. Navigate to the `mod30-caption` logic app
+2. Open the Logic app designer
+3. Walk through the various steps and explain how one step feeds into the next with variables
+4. Expand the condition
+5. Add a step to connect with the `UpdateDescription` function _after_ the `Describe Image Content` step.
+6. Show the code for `Update Description` function.
 7. Set the `blob` to the URL of the blob and `description` to the generated caption
-8. Save then enable the logic app
+8. Save, then enable the logic app
 9. Upload a new image and show the automated caption
 
 ## Troubleshooting
